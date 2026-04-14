@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd C:/Users/ANT-PC/Downloads/uigen && npm run lint 2>&1)",
+      "Bash(npm audit:*)",
+      "Bash(npm install:*)",
+      "Bash(grep -r \"from ''ai''\" src/ --include=\"*.ts\" --include=\"*.tsx\" -l)",
+      "Bash(npm test:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npm show:*)",
+      "Bash(python3 -c \":*)",
+      "Bash(npm view:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot"
+    ]
+  }
+}
